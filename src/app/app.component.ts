@@ -8,8 +8,8 @@ import { Observable } from 'rxjs';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit{
-  private items: Observable<any[]>;
+export class AppComponent implements OnInit {
+  public items: Observable<any[]>;
 
   constructor(private dbFirestore: AngularFirestore) {}
 
